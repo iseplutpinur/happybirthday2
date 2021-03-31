@@ -453,34 +453,33 @@
 
   initVars();
 
-  document.addEventListener('touchstart', function () {
-    // if(!clickones){
-    //   clickones = true
-    //   var text = document.querySelector('.happy')
-    //   text.style.animation = 'out 6s alternate'
-    //   setTimeout(function(){
-    //     text.style.display = 'none'
-    //   },5900)
-    // }
-    frame();
+  // document.addEventListener('touchstart', function () {
+  //   // if(!clickones){
+  //   //   clickones = true
+  //   //   var text = document.querySelector('.happy')
+  //   //   text.style.animation = 'out 6s alternate'
+  //   //   setTimeout(function(){
+  //   //     text.style.display = 'none'
+  //   //   },5900)
+  //   // }
 
-    overlay();
-    play(slides, 3000);
-  })
-  document.addEventListener('click', function () {
-    // if(!clickones){
-    //   clickones = true
-    //   var text = document.querySelector('.happy')
-    //   text.style.animation = 'out 6s alternate'
-    //   setTimeout(function(){
-    //     text.style.display = 'none'
-    //   },5900)
-    // }
-    frame();
+  //   frame();
+  //   overlay();
+  //   play(slides, 3000);
+  // })
+  // document.addEventListener('click', function () {
+  //   // if(!clickones){
+  //   //   clickones = true
+  //   //   var text = document.querySelector('.happy')
+  //   //   text.style.animation = 'out 6s alternate'
+  //   //   setTimeout(function(){
+  //   //     text.style.display = 'none'
+  //   //   },5900)
+  //   // }
+  // })
+  frame();
 
-    overlay();
-    play(slides, 3000);
-  })
-
+  overlay();
+  play(slides, 3000);
 
 })(window, document);

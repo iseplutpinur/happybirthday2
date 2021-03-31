@@ -472,7 +472,7 @@ html,body {
   font-size: 100px;
   text-align: center;
   position: absolute;
-  top: 40vh;
+  top: 5vh;
   filter:Alpha(opacity=0);
 }
 @-webkit-keyframes out {
@@ -488,5 +488,5 @@ html,body {
   }
 }
 small{
-  font-size: 50px;
+  font-size: 45px;
 }
